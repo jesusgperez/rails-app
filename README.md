@@ -30,6 +30,7 @@ rails db:migrate => Apply all the db migrations
 rails console => it console to access models and database (similar to shell_plus in django)
 rails credentials:edit
 rails g scaffold Book title:string author:string description:text isbn:string pages_count:integer
+rails db:migrate:status
 
 
 ORM commands
