@@ -28,9 +28,11 @@ rails new <app_name> -T (Avoid testing files, just for this course)
 rails g Pet name:string breed:string => create a table into the database
 rails db:migrate => Apply all the db migrations
 rails console => it console to access models and database (similar to shell_plus in django)
+rails credentials:edit
 
 
 ORM commands
 Model.create attr1: '', attr2: ''
 Model.first
 Model.all
+Rails.application.credentials.hello    # Accesses the secret information
