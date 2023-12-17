@@ -41,6 +41,10 @@ Model.all
 Rails.application.credentials.hello    # Accesses the secret information
 
 
+Other commands and packages:
+gem install i18n-tasks   # gem for simplify the i18n traductions, not into the Gemlfile
+i18n-tasks add-missing
+
 Specifications
 
 Helpers:
