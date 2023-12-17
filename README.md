@@ -31,6 +31,7 @@ rails console => it console to access models and database (similar to shell_plus
 rails credentials:edit
 rails g scaffold Book title:string author:string description:text isbn:string pages_count:integer
 rails db:migrate:status
+rails generate simple_form:install
 
 
 ORM commands
